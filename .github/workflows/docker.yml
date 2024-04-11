@@ -15,5 +15,5 @@ jobs:
           username: ${{ secrets.ACR_USERNAME }}
           password: ${{ secrets.ACR_PASSWORD }}
     - run: |
-          docker build . -t adekunle.azurecr.io/productmicroservice:latest
-          docker push adekunle.azurecr.io/productmicroservice:latest
+          docker build . -t adekunle.azurecr.io/productsmicroservice:latest
+          docker push adekunle.azurecr.io/productsmicroservice:latest
